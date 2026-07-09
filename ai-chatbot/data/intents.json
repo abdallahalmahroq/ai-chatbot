@@ -1,0 +1,27 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you", "goodbye"],
+      "responses": ["Goodbye!", "See you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you"],
+      "responses": ["You're welcome!", "No problem!"]
+    },
+    {
+      "tag": "ai_definition",
+      "patterns": ["what is ai", "define artificial intelligence"],
+      "responses": [
+        "Artificial Intelligence is the simulation of human intelligence by machines."
+      ]
+    }
+  ]
+}
+
